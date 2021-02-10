@@ -1,0 +1,128 @@
+/*
+ French Lilac:805D93 purple
+ FIRE OpaL:e86252 orange pink
+ NAVY BLUE:0d1f2d 
+ white:f2f4f3
+ sea green:169873
+ */
+
+
+/*GLOBAL
+ ======================================*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: rgb(26, 2, 27);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+h1,
+h2 {
+    font-size: 40px;
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+header {
+    background-color: rgb(71, 73, 163);
+    color: #f2f4f3;
+}
+
+a {
+    color: #FFE66D;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.content-wrap {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+
+/*Project
+ ======================================*/
+
+.project {
+    background-color: #f8f8fb;
+}
+
+.project a {
+    color: #FFF;
+    background-color: rgb(47, 48, 97);
+    padding: 8px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.project a:hover {
+    background: rgba(47, 48, 97, 80%);
+}
+
+.project-section {
+    overflow: hidden;
+    border-bottom: 1px dashed rgb(47, 48, 97);
+    padding: 25px 0px;
+}
+
+.project-section img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-section h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+
+/*WorkExperince
+ ======================================*/
+
+.work {
+    background-color: #40E0D0;
+    color: #f2f4f3;
+}
+
+
+/*Education
+ ======================================*/
+
+.education {}
+
+
+/*contact info
+================================*/
+
+footer {
+    background-color: #0d1f2d;
+    color: #f2f4f3;
+}
